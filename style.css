@@ -1,0 +1,113 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2C2C2C;
+}
+
+#cabecalho{
+    background: rgb(173, 104, 173);
+    width: 375px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+h1{
+    color: #F4F4F4;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#caixa-principal{
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo{
+    margin-bottom: 6px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.select{
+    background: white;  /* COR DE FUNDO */
+    border: 1px solid #BBBBBB;  /* LARGURA DA BORDA TIPO COR*/
+    border-radius: 4px;  /* BORDA REDONDA*/
+    height: 48px;  /* ALTURA*/
+    width: 327px;  /* LARGURA*/
+    margin-bottom: 23px;  /* ESPAÇO PARA BAIXO EXTERNO*/
+    appearance: none;  /* TIRAR SENTINHA DO SELECT */
+    outline: none;  /* TIRAR BORDA QUANDO CLICAR*/
+    cursor: pointer;  /* MÃO QUANDO PASSAR O MOUSE ENCIMA*/
+    padding-left: 16px;  /* ESPAÇAMENTO INTERNO - PARA ESQUERDA*/
+    font-size: 16px;  /* TAMANHO DA FONTE(TEXTO)*/
+    font-weight: bold;  /* PESO DA FONT(TEXTO)*/
+
+}
+
+#inputvalorreais{
+    height: 48px;
+    width: 327px;
+    background: white;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+#botao{
+    background: #CDD728;
+    border-radius: 25px;
+    display: block;  /* FICAR SOZINHO EM UMA LINHA */
+    height: 48px;
+    width: 327px;
+    cursor: pointer;
+    border: none;  /* TIRAR BORDA*/
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F4F4F4;
+    outline: none;
+}
+
+#botao:active{  /*qunado o botao for ativado*/
+    opacity: 0.6;  /* transparencia (0 á 1)*/
+}
+
+#caixa-interna{
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.caixa-menor{
+    text-align: center;
+}
+
+#seta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-negrito{
+    font-weight: bold;
+    font-size: 20px;
+}
